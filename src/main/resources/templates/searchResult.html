@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="img/favicon.ico">
+
+    <title>Newso - An Efficient News Search Engine</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <!-- js-->
+    <script src="js/search.js"></script>
+    <script src="js/common.js"></script>
+</head>
+
+<body>
+<div class="container">
+    <div class="row mt-4">
+        <div class="col-2">
+            <img class="img-fluid" src="img/logo.png" alt="logo"  style="max-width: 150px;">
+        </div>
+
+        <div class="col-9 row">
+            <form class="mr-auto">
+                <div class="card mx-auto"  style="max-width: 700px; min-width: 665px">
+                    <div class="card-body bg px-2 py-1">
+                        <div class="form-group my-0 mx-2 row">
+                            <select class="mr-3" id="exampleFormControlSelect1" style="border:0; outline: none;">
+                                <option>Title</option>
+                                <option>Author</option>
+                                <option>Content</option>
+                            </select>
+
+                            <div class="row">
+                                <input class="ml-3 align-items-center" type="text" placeholder="Fuch you SpringBoot!" style="border:0; outline: none;">
+                            </div>
+                            <div class="pt-2 ml-auto">
+                                <input class="searchIcon" type="submit" value="">
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div id="resultModel" class="row">
+        <div class="col-2">
+        </div>
+        <div class="col-8 mt-3 p-0">
+            <p id="totalResult" class="m-1"></p>
+        </div>
+
+    </div>
+
+
+    <!--    <div class="row">-->
+    <!--        <div class="col-2">-->
+    <!--        </div>-->
+    <!--        <div class="col-7 my-3 p-0">-->
+    <!--            <a>-->
+    <!--                <div class="alert alert-dark m-0" role="alert">-->
+    <!--                    <h5 id="view_title">-->
+
+    <!--                    </h5>-->
+    <!--                    <h6 id="view_author"></h6>-->
+    <!--                    <p class="m-1" id="view_fragment">-->
+
+    <!--                    </p>-->
+    <!--                </div>-->
+    <!--            </a>-->
+    <!--        </div>-->
+    <!--    </div>-->
+
+    <div class="row">
+        <div class="col-2">
+        </div>
+        <div class="col-7 my-3 p-0">
+            <div class="alert alert-dark m-0" role="alert">
+                <h5> <span class="highlight">G20</span> press briefing analysis - Annual Meetings 2019</h5>
+                <h6>Danlan Huang</h6>
+                <p class="m-1">On the 28th and 29th of June 2019, Japan will host its first ever <span class="highlight">G20</span> Summit in Osaka. Concurrent with the summit meeting, eight ministerial meetings will also ...
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-2">
+        </div>
+        <div class="col-7 my-3 p-0">
+            <button type="button" class="btn darkgrey mr-2">1</button>
+            <button type="button" class="btn darkgrey mr-2">2</button>
+            <button type="button" class="btn darkgrey mr-2">3</button>
+        </div>
+    </div>
+
+</div>
+
+
+</body>
+
+</html>

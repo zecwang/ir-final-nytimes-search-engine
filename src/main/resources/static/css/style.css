@@ -1,0 +1,27 @@
+.bg {
+    background-color: #ffffff;
+}
+
+.searchIcon {
+    height: 30px;
+    width: 30px;
+    /*padding-top: 2px; */
+    background: url(../img/search.png) no-repeat;
+    border:none;
+}
+
+.author{
+    color:green;
+}
+
+.darkgrey{
+    background-color: #e2e3e5;
+}
+
+.darkgrey:hover{
+    background-color: #d6d8d9;
+}
+
+.highlight{
+    color:#ff8822;
+}
